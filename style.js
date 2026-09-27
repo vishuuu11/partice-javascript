@@ -15,11 +15,11 @@
 //     };
 // });
 
-const { jsx } = require("react/jsx-runtime");
+// 
 
 // let btn = document.querySelector(".btn");
 // let para = document.querySelector("p");
-// console.log(para);
+// console.log(para);const { jsx } = require("react/jsx-runtime");
 // btn.addEventListener("dbclick", () =>{
 //     console.log("kese ho");
 //     para.classList.toggle("para");
@@ -175,62 +175,84 @@ const { jsx } = require("react/jsx-runtime");
 // .then((meassage)=>{
 
 // })
-function getData(){
-    return new Promise((resolve,reject)=>{
-        resolve("data a gya");
-    });
-}
-getData().then((result) =>{
-    console.log(result);
-})
-async function = gettingData() {
-const data = await getData();
-console.log(data);
-}
-gettingData();
-let data = fetch(`https:??jsonplaceholder.tyicode.com/todod/`);
-data.then((rawData) =>{
-    console.log(rawData);
-    return rawData.json();
-})
-.then((rawData) =>{
-    console.log(rawData);
-    return rawData.json();
-})
-.then((actuaalData) =>{
-    return rawData.json();
-})
-.catch((actualData)=>{
-    console.log(actualData);
-})
-.catch((err) =>{
-    console.log(err);
-});
-async function getData() {
-    try{
-        let data = await fetch(`https://jsonplaceholder.tyicode.com/todos/`);
-        const result = await data.json();
-        const actualData = result;
-        console.log(actualData);
-    } catch(err){
-        console.log(err);
-    }
+// function getData(){
+//     return new Promise((resolve,reject)=>{
+//         resolve("data a gya");
+//     });
+// }
+// getData().then((result) =>{
+//     console.log(result);
+// })
+// async function = gettingData() {
+// const data = await getData();
+// console.log(data);
+// }
+// gettingData();
+// let data = fetch(`https:??jsonplaceholder.tyicode.com/todod/`);
+// data.then((rawData) =>{
+//     console.log(rawData);
+//     return rawData.json();
+// })
+// .then((rawData) =>{
+//     console.log(rawData);
+//     return rawData.json();
+// })
+// .then((actuaalData) =>{
+//     return rawData.json();
+// })
+// .catch((actualData)=>{
+//     console.log(actualData);
+// })
+// .catch((err) =>{
+//     console.log(err);
+// });
+// async function getData() {
+//     try{
+//         let data = await fetch(`https://jsonplaceholder.tyicode.com/todos/`);
+//         const result = await data.json();
+//         const actualData = result;
+//         console.log(actualData);
+//     } catch(err){
+//         console.log(err);
+//     }
 
-}
-getData();
- function loginUser(userId, userName) {
-    console.log("User");
-    return new Promise(resolve, reject) =>{
-        setTimeout(() =>{
-            resolve({userId: userId, userName: userName});
-        },2000);
-    }
- }
- function getPost(userId){
-    console.log("Post fetch ki ja rahi h");
-    return new Promise((resolve, reject) =>{
-        setTimeout(() =>{
-            resolve([{postId: "1001", title:"Toxic"}])
-        },2000);
-    }
- }
+// }
+// getData();
+//  function loginUser(userId, userName) {
+//     console.log("User");
+//     return new Promise(resolve, reject) =>{
+//         setTimeout(() =>{
+//             resolve({userId: userId, userName: userName});
+//         },2000);
+//     }
+//  }
+//  function getPost(userId){
+//     console.log("Post fetch ki ja rahi h");
+//     return new Promise((resolve, reject) =>{
+//         setTimeout(() =>{
+//             resolve([{postId: "1001", title:"Toxic"}])
+//         },2000);
+//     }
+//  }
+//  function getPost(userId){
+//     console.log("Post fetch ki ja rahi h");
+//     return new Promise((resolve, reject) =>{
+//         setTimeout(() =>{
+//             resolve([{postId: "1001", title:"Toxic"}])
+//         },2000);
+//     }
+//  }
+
+// function sendEmail(useremail){
+//     console.log(`Processing email ..`);
+//     const score = Math.floor(Math.random() * 100);
+//     console.log(`User cibil sscore${score}`);
+//     return  new Promise((resolve. reject) =>{
+//         if(score > 50){
+//             resolve("email sent");
+//         }else {
+//             reject("email  failed");
+//         }
+//     });
+// }
+
