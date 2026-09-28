@@ -255,17 +255,19 @@
 //         }
 //     });
 // }
-function sendEmail(useremail){
-    console.log(`Processing email ..`);
-    const score = Math.floor(Math.random() * 100);
-    console.log(`User cibil sscore${score}`);
-    return  new Promise((resolve. reject) =>{
-        if(score > 50){
-            resolve("email sent");
-        }else {
-            reject("email  failed");
-        }
-    });
-}
+// function sendEmail(useremail){
+//     console.log(`Processing email ..`);
+//     const score = Math.floor(Math.random() * 100);
+//     console.log(`User cibil sscore${score}`);
+//     return  new Promise((resolve. reject) =>{
+//         if(score > 50){
+//             resolve("email sent");
+//         }else {
+//             reject("email  failed");
+//         }
+//     });
+// }
 
-
+// git add .
+// git commit -m "your message"
+// git push origin main
